@@ -1,0 +1,10 @@
+[package]
+name = "file_size_tester"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "releases/sui-v1.7.0-release" }
+
+[addresses]
+file_size_tester =  "0x0"
+sui =  "0000000000000000000000000000000000000000000000000000000000000002"
