@@ -60,4 +60,9 @@ module file_size_tester::filesize {
         df::add(&mut pic.id, num, input_bytes);
     }
 
+    public fun add_bytes_as_dof_2_inputs(pic: &mut Picture, num:u8, input_bytes1:vector<u8>,  input_bytes2:vector<u8>) {
+        df::add(&mut pic.id, num, input_bytes1);
+        df::add(&mut pic.id, num, input_bytes2);
+    }
+
 }
