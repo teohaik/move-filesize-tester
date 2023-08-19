@@ -1,14 +1,12 @@
-# Move Advanced Exercise
+# Move Filesize tester
 
-This repo is a solution to the [Move Advanced Exercise](https://www.notion.so/mystenlabs/Exercise-Advanced-Move-Typescript-98691522f072435395a961f2014f3180)
-
+This repo contains experiments to upload 1MB picture size and calculate the cost of the transaction + storage
 
 ### Directories structure
 
 - move:
 
   - Contains the Move code of the smart contracts
-  - Contains a sample package named `poc` where the developer can add a move module and start building
 
 - setup
   - A Typescript project, with ready-to-use:
